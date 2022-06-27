@@ -5,6 +5,21 @@
     margin: 10px;
     padding: 15px;
     z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.product__box {
+    height: 100px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start; */
+}
+
+.product__title {
+    font-size: clamp(14px, 2vw, 16px);
 }
 
 .product__star {
@@ -30,4 +45,5 @@
     border-radius: 8px;
     border: 1px;
     box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    padding: 6px;
 }
